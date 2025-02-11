@@ -57,7 +57,13 @@ export async function validateSessionToken(token: string): Promise<SessionValida
 			}
 		});
 	}
-	return { session, user };
+
+	const safeUser = {
+		...user,
+		passwordHash: undefined,
+	}
+
+	return { session, user:safeUser };
 }
 
 export async function invalidateSession(sessionId: string): Promise<void> {
@@ -65,7 +71,7 @@ export async function invalidateSession(sessionId: string): Promise<void> {
 }
 
 export type SessionValidationResult =
-	| { session: Session; user: User }
+	| { session: Session; user: Omit<User, "passwordHash"> }
 	| { session: null; user: null };
 
 
