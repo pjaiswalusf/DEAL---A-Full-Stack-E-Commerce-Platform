@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "createdAt": "2025-02-12T15:59:57.455Z",
+  "workspaces": [
+    {
+      "name": "default",
+      "title": "Default",
+      "basePath": "/studio",
+      "projectId": "vjcwltq4",
+      "dataset": "production",
+      "icon": "<style data-styled-version=\"6.1.15\" data-styled=\"true\">.gHaMlA{font-family:Inter,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",\"Liberation Sans\",Helvetica,Arial,system-ui,sans-serif;font-weight:500;font-size:13px;transform:translateY(1px);}/*!sc*/\ndata-styled.g109[id=\"sc-eiwqOE\"]{content:\"gHaMlA,\"}/*!sc*/\n</style><svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#8b2018\" rx=\"2\" height=\"32\" width=\"32\"></rect><text class=\"sc-eiwqOE gHaMlA\" fill=\"hsla(4, 71%, 72%, 1)\" alignment-baseline=\"middle\" text-anchor=\"middle\" y=\"50%\" x=\"50%\">D</text></svg>",
+      "schema": "11732be7.create-schema.json",
+      "tools": "45117e79.create-tools.json"
+    }
+  ]
+}
