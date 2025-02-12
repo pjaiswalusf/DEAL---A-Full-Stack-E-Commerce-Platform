@@ -4,10 +4,10 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/layout/Header';
 import { getCurrentSession } from '@/actions/auth';
 import { SanityLive } from '@/sanity/lib/live';
-// import HeaderCategorySelector from '@/components/layout/HeaderCategorySelector';
 // import Cart from '@/components/cart/Cart';
 import Script from 'next/script';
 import { Suspense } from 'react';
+import HeaderCategorySelector from '@/components/layout/HeaderCategorySelector';
 // import AnalyticsTracker from '@/components/layout/AnalyticsTracker';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -29,7 +29,7 @@ const RootLayout = async ({
             <body className={`${inter.className} antialiased bg-white min-h-[125vh]`}>
                 <Header 
                     user={user}
-                    categorySelector={undefined}                    
+                    categorySelector={<HeaderCategorySelector />}                    
                     // categorySelector={<HeaderCategorySelector />}
                 />
                 <Script
