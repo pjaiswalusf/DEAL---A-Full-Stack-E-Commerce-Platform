@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/layout/Header';
 import { getCurrentSession } from '@/actions/auth';
 import { SanityLive } from '@/sanity/lib/live';
-// import Cart from '@/components/cart/Cart';
+import Cart from '@/components/cart/Cart';
 import Script from 'next/script';
 import { Suspense } from 'react';
 import HeaderCategorySelector from '@/components/layout/HeaderCategorySelector';
@@ -29,8 +29,7 @@ const RootLayout = async ({
             <body className={`${inter.className} antialiased bg-white min-h-[125vh]`}>
                 <Header 
                     user={user}
-                    categorySelector={<HeaderCategorySelector />}                    
-                    // categorySelector={<HeaderCategorySelector />}
+                    categorySelector={<HeaderCategorySelector />}   
                 />
                 <Script
                     src='https://cloud.umami.is/script.js'
@@ -46,7 +45,7 @@ const RootLayout = async ({
 
                 {children}
 
-                {/* <Cart /> */}
+                <Cart />
                 <SanityLive />
             </body>
         </html>
