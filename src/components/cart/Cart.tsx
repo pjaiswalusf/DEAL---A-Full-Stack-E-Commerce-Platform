@@ -1,6 +1,6 @@
 'use client';
 
-// import { createCheckoutSession } from '@/actions/stripe-actions';
+import { createCheckoutSession } from '@/actions/stripe-actions';
 import { formatPrice } from '@/lib/utils';
 import { useCartStore, type CartItem as CartItemType } from '@/stores/cart-store';
 import { Loader2, ShoppingCart, X } from 'lucide-react';
@@ -108,7 +108,7 @@ const Cart = () => {
         }
         setLoadingProceed(true);
 
-        // const checkoutUrl = await createCheckoutSession(cartId);
+        const checkoutUrl = await createCheckoutSession(cartId);
 
         try {
             const anyWindow = window as any;
@@ -122,7 +122,7 @@ const Cart = () => {
             }
         } catch(e) {}
 
-        // window.location.href = checkoutUrl;
+        window.location.href = checkoutUrl;
         
         setLoadingProceed(false);
     }
