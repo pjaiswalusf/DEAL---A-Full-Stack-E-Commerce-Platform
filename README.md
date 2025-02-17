@@ -51,33 +51,40 @@ A modern e-commerce platform inspired by TEMU, built with **Next.js 15, React 19
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone [https://github.com/pjaiswalusf/DEAL---A-Full-Stack-E-Commerce-Platform/tree/main]```
+git clone https://github.com/pjaiswalusf/DEAL---A-Full-Stack-E-Commerce-Platform
+```
 
 ### **2️⃣ Install Dependencies**
 
 ```bash
 npm install
 # or
-yarn install```
+yarn install
+```
 
-3️⃣ Set Up Environment Variables
+### **3️⃣ Set Up Environment Variables**
 
 Rename .env.example to .env and fill in the necessary values:
-
+```env
 DATABASE_URL="postgresql://..."
 NEXT_PUBLIC_STRIPE_KEY="..."
 SANITY_PROJECT_ID="..."
+```
 
-4️⃣ Set Up the Database
+### **4️⃣ Set Up the Database**
 
+```bash
 npx prisma db push
 npx prisma generate
+```
 
-5️⃣ Run the Development Server
+### **5️⃣ Run the Development Server**
 
+```bash
 npm run dev
 # or
 yarn dev
+```
 
 🔗 Visit http://localhost:3000 to see the project live!
 
