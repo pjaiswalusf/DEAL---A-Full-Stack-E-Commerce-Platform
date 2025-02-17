@@ -103,13 +103,10 @@ Ensure environment variables are configured in Vercel settings before deployment
 
 
 ### **🙌 Acknowledgments**
-	•	Inspired by TEMU’s UI & shopping experience
-	•	Built using Next.js, Prisma, and Stripe
-	•	Documentation references:
-	•	Next.js Docs
-	•	Prisma Docs
-	•	TailwindCSS Docs
+- Inspired by **TEMU’s UI & shopping experience**
+- Built using **Next.js, Prisma, and Stripe**
+- Documentation references:  
+  - [Next.js Docs](https://nextjs.org/docs)  
+  - [Prisma Docs](https://www.prisma.io/docs)  
+  - [TailwindCSS Docs](https://tailwindcss.com/docs)  
 
-🔥 Feel free to fork, contribute, and star this repo if you like it! 🚀
-
-This README.md ensures clarity, professionalism, and easy navigation for visitors. Let me know if you want any modifications! 🚀
