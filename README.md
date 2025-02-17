@@ -53,8 +53,9 @@ A modern e-commerce platform inspired by TEMU, built with **Next.js 15, React 19
 ```bash
 git clone [https://github.com/pjaiswalusf/DEAL---A-Full-Stack-E-Commerce-Platform/tree/main]
 
-2️⃣ Install Dependencies
+### **2️⃣ Install Dependencies**
 
+```bash
 npm install
 # or
 yarn install
