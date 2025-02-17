@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ DEAL - A Full-Stack E-Commerce Platform  
 
-## Getting Started
+![DEAL Thumbnail](assets/thumbnail.jpg)  
 
-First, run the development server:
+A modern e-commerce platform inspired by TEMU, built with **Next.js 15, React 19, Prisma, and Stripe** for a seamless shopping experience. Users can **browse products, add items to cart, make secure payments, and engage with gamification elements like Spin the Wheel**.  
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)  
+[![Next.js](https://img.shields.io/badge/Next.js%2015-black?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)  
+[![React](https://img.shields.io/badge/React%2019-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)  
+[![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)](https://www.prisma.io/)  
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)  
+
+---
+
+## 🚀 Features  
+
+✅ **User Authentication** (Sign-up, Sign-in, Guest Checkout)  
+✅ **Product Listings & Categories** - Browse, search, and filter products  
+✅ **Persistent Shopping Cart** - Cart remains the same even after login  
+✅ **Secure Payments** - Integrated **Stripe** for transaction processing  
+✅ **Gamification with Spin the Wheel** - Users can win free products  
+✅ **Sanity.io CMS** - Admin panel for seamless product management  
+✅ **Optimized Performance** - SSR, ISR, and client-side rendering for a faster experience  
+✅ **Analytics with Umami** - Track user engagement and sales metrics  
+✅ **Deployed on Vercel** - High availability and **<1.2s page load time**  
+
+---
+
+## 🏗️ Tech Stack  
+
+### **Frontend**  
+- **Next.js 15**  
+- **React 19**  
+- **TailwindCSS**  
+- **TypeScript**  
+
+### **Backend**  
+- **Next.js API Routes**  
+- **Prisma ORM**  
+- **PostgreSQL**  
+
+### **Payments & Analytics**  
+- **Stripe** - Secure online payments  
+- **Umami Analytics** - Track user traffic  
+
+### **CMS & Deployment**  
+- **Sanity.io** - Headless CMS for managing product data  
+- **Vercel** - Deployment and hosting  
+
+---
+
+## 📦 Installation & Setup  
+
+### **1️⃣ Clone the Repository**  
 ```bash
+git clone https://github.com/yourusername/DEAL-ecommerce.git
+cd DEAL-ecommerce
+
+2️⃣ Install Dependencies
+
+npm install
+# or
+yarn install
+
+3️⃣ Set Up Environment Variables
+
+Rename .env.example to .env and fill in the necessary values:
+
+DATABASE_URL="postgresql://..."
+NEXT_PUBLIC_STRIPE_KEY="..."
+SANITY_PROJECT_ID="..."
+
+4️⃣ Set Up the Database
+
+npx prisma db push
+npx prisma generate
+
+5️⃣ Run the Development Server
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 Visit http://localhost:3000 to see the project live!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Vercel is recommended for deployment:
 
-## Learn More
+vercel deploy
 
-To learn more about Next.js, take a look at the following resources:
+Ensure environment variables are configured in Vercel settings before deployment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📝 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is MIT Licensed. See the LICENSE file for more details.
 
-## Deploy on Vercel
+🙌 Acknowledgments
+	•	Inspired by TEMU’s UI & shopping experience
+	•	Built using Next.js, Prisma, and Stripe
+	•	Documentation references:
+	•	Next.js Docs
+	•	Prisma Docs
+	•	TailwindCSS Docs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔥 Feel free to fork, contribute, and star this repo if you like it! 🚀
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This README.md ensures clarity, professionalism, and easy navigation for visitors. Let me know if you want any modifications! 🚀
