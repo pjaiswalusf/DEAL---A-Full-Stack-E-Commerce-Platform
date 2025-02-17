@@ -1,12 +1,14 @@
 # 🛍️ DEAL - A Full-Stack E-Commerce Platform  
 
 A modern e-commerce platform inspired by TEMU, built with **Next.js 15, React 19, Prisma, and Stripe** for a seamless shopping experience. Users can **browse products, add items to cart, make secure payments, and engage with gamification elements like Spin the Wheel**.  
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)  
+ 
 [![Next.js](https://img.shields.io/badge/Next.js%2015-black?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)  
 [![React](https://img.shields.io/badge/React%2019-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)  
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)](https://www.prisma.io/)  
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)  
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://vercel.com/)  
+[![Sanity](https://img.shields.io/badge/Sanity-F03E2F?style=flat&logo=sanity&logoColor=white)](https://www.sanity.io/)  
+[![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat&logo=stripe&logoColor=white)](https://stripe.com/)
 
 ---
 
@@ -88,19 +90,19 @@ yarn dev
 
 🔗 Visit http://localhost:3000 to see the project live!
 
-🚀 Deployment
+### **🚀 Deployment**
 
-Vercel is recommended for deployment:
 
+**Vercel** is recommended for deployment:
+
+```bash
 vercel deploy
+```
 
 Ensure environment variables are configured in Vercel settings before deployment.
 
-📝 License
 
-This project is MIT Licensed. See the LICENSE file for more details.
-
-🙌 Acknowledgments
+### **🙌 Acknowledgments**
 	•	Inspired by TEMU’s UI & shopping experience
 	•	Built using Next.js, Prisma, and Stripe
 	•	Documentation references:
