@@ -51,8 +51,7 @@ A modern e-commerce platform inspired by TEMU, built with **Next.js 15, React 19
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/DEAL-ecommerce.git
-cd DEAL-ecommerce
+git clone [https://github.com/pjaiswalusf/DEAL---A-Full-Stack-E-Commerce-Platform/tree/main]
 
 2️⃣ Install Dependencies
 
