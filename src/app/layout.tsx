@@ -8,7 +8,7 @@ import Cart from '@/components/cart/Cart';
 import Script from 'next/script';
 import { Suspense } from 'react';
 import HeaderCategorySelector from '@/components/layout/HeaderCategorySelector';
-// import AnalyticsTracker from '@/components/layout/AnalyticsTracker';
+import AnalyticsTracker from '@/components/layout/AnalyticsTracker';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -33,14 +33,14 @@ const RootLayout = async ({
                 />
                 <Script
                     src='https://cloud.umami.is/script.js'
-                    data-website-id='(YOUR UMAMI WEBSITE ID)'
+                    data-website-id='1827be81-8c63-4a48-8613-5f4776351b30'
                     strategy='beforeInteractive'
                 />
 
                 <Suspense>
-                    {/* <AnalyticsTracker
+                    <AnalyticsTracker
                         user={user}
-                    /> */}
+                    />
                 </Suspense>
 
                 {children}

@@ -1,7 +1,7 @@
 import umami from '@umami/node';
 
 umami.init({
-    websiteId: '(YOUR UMAMI WEBSITE ID)', // Your website id
+    websiteId: '1827be81-8c63-4a48-8613-5f4776351b30', // Your website id
     hostUrl: 'https://cloud.umami.is', // URL to your Umami instance
 });
 
