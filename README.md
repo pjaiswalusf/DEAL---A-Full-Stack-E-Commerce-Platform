@@ -1,7 +1,5 @@
 # 🛍️ DEAL - A Full-Stack E-Commerce Platform  
 
-![DEAL Thumbnail](assets/thumbnail.jpg)  
-
 A modern e-commerce platform inspired by TEMU, built with **Next.js 15, React 19, Prisma, and Stripe** for a seamless shopping experience. Users can **browse products, add items to cart, make secure payments, and engage with gamification elements like Spin the Wheel**.  
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)  
