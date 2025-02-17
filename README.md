@@ -1,5 +1,7 @@
 # 🛍️ DEAL - A Full-Stack E-Commerce Platform  
 
+🔗 **Live Website:** [[https://yourwebsite.com](https://temu-clone-omega.vercel.app/)]([https://yourwebsite.com](https://temu-clone-omega.vercel.app/))  
+
 A modern e-commerce platform inspired by TEMU, built with **Next.js 15, React 19, Prisma, and Stripe** for a seamless shopping experience. Users can **browse products, add items to cart, make secure payments, and engage with gamification elements like Spin the Wheel**.  
  
 [![Next.js](https://img.shields.io/badge/Next.js%2015-black?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)  
